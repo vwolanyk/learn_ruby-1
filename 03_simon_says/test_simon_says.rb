@@ -73,6 +73,7 @@ class TestSimonSays < MiniTest::Test
     assert_equal "David Copperfield", titleize("david copperfield")
   end
 
+
   def test_titleize_not_little_words
     assert_equal "War and Peace", titleize("war and peace")
   end
